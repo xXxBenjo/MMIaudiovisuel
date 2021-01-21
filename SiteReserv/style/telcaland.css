@@ -1,0 +1,45 @@
+#logo3{
+   padding: 50px;
+}
+
+header{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: left;
+    display: none;
+}
+
+#nom{
+    display: flex;
+    justify-content: right;
+    padding-left: 500px;
+    display: none;
+}
+
+body{ margin-top: 0px;}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+}
+
+input {
+    background-color: rgb(48, 182, 235);
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 20pt;
+}

@@ -1,0 +1,52 @@
+#logo3{
+    padding: 50px;
+}
+
+header{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: left;
+    display: none;
+}
+
+#nom{
+    display: flex;
+    justify-content: right;
+    padding-left: 500px;
+    display: none;
+}
+
+.fiche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    margin: 20px;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+#valid {
+    background-color: rgb(48, 182, 235);
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 12pt;
+}
+
+h1{
+    margin-top: 10px;
+}

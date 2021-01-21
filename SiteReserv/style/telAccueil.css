@@ -1,0 +1,114 @@
+body
+{
+    margin : 0;
+}
+#logo3{
+    padding: 50px;
+}
+
+header{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: left;
+    display: none;
+}
+
+.liste{
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+p:hover {
+    background-color: skyblue;
+}
+
+input {
+    border: none;
+    background-color: white;
+    margin: 1%;
+    font-size: 20px;
+}
+ input:hover{
+     background-color: skyblue;
+
+ }
+
+ #nom{
+     display: flex;
+     justify-content: right;
+     padding-left: 500px;
+     display: none;
+ }
+
+ footer{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #deco{
+        background-color: rgb(48, 182, 235);
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        font-size: 12pt;
+ }
+ .mat
+ {
+     background-color:whitesmoke;
+     width: 400px;
+     height: 400px;
+     justify-self: center;
+     margin : 10px;
+     text-align:center ;
+     font-size: 12pt;
+     border : 2px solid black;
+     border-radius: 10px;
+ }
+ .matos
+ {
+     display: grid;
+     grid-template-columns: 1fr ;
+     
+     align-items: center;
+ }
+ .bordurebasse
+ {
+     border-bottom: 2px solid black;
+     transition : 0.5s;
+ }
+ a:link
+ {
+    color :black;
+    text-decoration:none; 
+    font-weight: bold;
+    font-size: 20px;
+
+ }
+ .ajout
+{
+    font-size: 25px;
+    width: 400px;
+    height: 100px;
+    background-color :rgb(48, 182, 235);
+    border-radius : 30px;
+    text-align: center;
+    color : white;
+    margin : 10px;
+    margin-left: 25%;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow:5px 5px 2px 1px rgba(0, 0, 255, .2);
+}

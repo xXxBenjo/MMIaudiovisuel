@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="style/ficheAjout.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="style/telficheAjout.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="img/mmi-1.png" id="logo"> <img src="img/1x/Fichier 1.png" id="logo3"> <p id="nom">Nom-Prénom</p>
+    </header>
+    <div class="fiche">
+        <h1>Vous souhaitez ajouté du matériel</h1> <br>
+       <div>Nom du matériel : <input type="texte" name="nom"><br> <br></div> 
+       <div>Nombre : <input type="texte" name="nombre"> <br> <br></div>
+       <div>Catégorie : <input type="radio" id="Cam" name="caté" Value="Caméras">
+       <label for="cam">Caméras</label>
+
+        <input type="radio" id="micro" name="caté" Value="Microphones">
+        <label for="cam">Microphones</label>
+
+        <input type="radio" id="Aphoto" name="caté" Value="Appareils photos">
+        <label for="cam">Appareils photos</label>
+
+        <input type="radio" id="Accessoires" name="caté" Value="Accessoires">
+        <label for="cam">Accessoires</label>
+
+        <input type="radio" id="Objectifs" name="caté" Value="Objectifs">
+        <label for="cam">Objectifs</label> <br> <br></div> 
+
+        <div>Emplacement :
+            <input type="text" name="desc">
+            <br> <br></div>
+        <div>Remarque : <input type="text" name="remarque" height="30px"></div>
+        <br> <br><br> <br>
+        <input type="submit" value="Confimer" id='valid' onclick="goFinal()">
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

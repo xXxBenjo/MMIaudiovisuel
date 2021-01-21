@@ -1,0 +1,53 @@
+#logo3{
+    padding-left: 250px;
+}
+
+header{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: left;
+}
+
+#nom{
+    display: flex;
+    justify-content: right;
+    padding-left: 500px;
+}
+
+.fiche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+#valid {
+    background-color: rgb(48, 182, 235);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 16pt;
+    margin : 10px;
+}
+#valid:hover
+{
+    background-color:skyblue ;
+}
+
+h1{
+    margin-top: 10px;
+}
